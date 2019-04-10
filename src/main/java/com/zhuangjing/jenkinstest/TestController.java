@@ -15,7 +15,7 @@ public class TestController {
     @GetMapping("/hello")
     public Object hello(){
         Map<String, String> map = new HashMap<>();
-        map.put("name", "zhuagnjing");
+        map.put("name", "zhuagnjing11");
         return map;
     }
 }
